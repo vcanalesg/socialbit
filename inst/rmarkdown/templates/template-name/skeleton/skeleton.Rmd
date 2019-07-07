@@ -1,0 +1,19 @@
+---
+output:
+  xaringan::moon_reader:
+    css: ["default", "socialbit-styles.css", "socialbit-fonts.css"]
+    seal: false
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+![](img/logo.jpg)
+
+class: title-slide, middle
+
+Ejemplo de título de la presentación
+
+

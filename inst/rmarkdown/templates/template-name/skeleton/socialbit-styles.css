@@ -1,0 +1,16 @@
+/************
+socialbit-theme
+Styles for Xaringan slides with Socialbit theme
+Jul 2019
+/************
+
+/* Title slide */
+
+.title-slide {
+  background-color: #ffffff;  /* white background */
+  color: #67686e;             /* grey text */
+  text-shadow: 0 0 0;         /* no text shadow */
+  font-size: 50px;            /* intermediate text size */
+  font-weight: bold;          /* not bold */
+  line-height: 15pt;          /* separation between lines of text */
+}
