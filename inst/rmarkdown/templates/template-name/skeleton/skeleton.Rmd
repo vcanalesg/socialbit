@@ -10,10 +10,20 @@ output:
       countIncrementalSlides: false
 ---
 
-![](img/logo.jpg)
+class: sbit-slide
 
-class: title-slide, middle
+---
 
-Ejemplo de título de la presentación
+class: title-slide-long
 
+Ejemplo de título muy largo
 
+---
+
+# Sobre esta plantilla
+
+```{r, eval=FALSE}
+library(tidyverse)
+```
+
+Curabitur fringilla dapibus dolor sed consectetur. Quisque nec vestibulum mauris, sit amet ultricies lacus. Mauris facilisis dapibus nisi quis efficitur.

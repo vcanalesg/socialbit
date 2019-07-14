@@ -6,11 +6,50 @@ Jul 2019
 
 /* Title slide */
 
-.title-slide {
+.sbit-slide {
   background-color: #ffffff;  /* white background */
-  color: #67686e;             /* grey text */
-  text-shadow: 0 0 0;         /* no text shadow */
-  font-size: 50px;            /* intermediate text size */
-  font-weight: bold;          /* not bold */
-  line-height: 15pt;          /* separation between lines of text */
+  background-image: url(img/Identidad_SocialBit-color.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 650px;
 }
+
+/* Subtitle slide */
+
+.title-slide {
+  background-color: #00366a;  /* blue background */
+  color: #ffffff;             /* white text */
+  text-shadow: 0 0 0;         /* no text shadow */
+  text-indent: -120px;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  line-height: 40pt;
+  font-size: 55px;            /* text size */
+  font-weight: bold;          /* bold */
+  background-image: url(img/Identidad_SocialBit-blanco.png);
+  background-position: 95px 250px;
+  background-size: 210px 52px;
+}
+
+.title-slide-long {
+  background-color: #00366a;  /* blue background */
+  color: #ffffff;             /* white text */
+  text-shadow: 0 0 0;         /* no text shadow */
+  padding-left: 2em;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  line-height: 60pt;
+  font-size: 55px;            /* text size */
+  font-weight: bold;          /* bold */
+  background-image: url(img/Identidad_SocialBit-blanco.png);
+  background-position: 95px 210px;
+  background-size: 210px 52px;
+}
+
+/* Slide numbers */
+
+.remark-slide-number {
+  display: none;  /* remove them */
+}
+
+

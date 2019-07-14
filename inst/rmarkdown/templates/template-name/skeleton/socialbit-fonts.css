@@ -7,8 +7,14 @@ Jul 2019
 
 /* Import from Google Fonts */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono');
+
+/* Sans serif title text */
+
+.title-slide, .title-slide-long { font-family: 'Quicksand', sans-serif; }
+h1, h2, .title-h2 { font-family: 'Quicksand', sans-serif; }
 
 /* Sans serif body text */
 
