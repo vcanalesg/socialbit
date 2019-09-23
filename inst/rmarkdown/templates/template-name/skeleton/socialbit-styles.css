@@ -2,6 +2,7 @@
 socialbit-theme
 Styles for Xaringan slides with Socialbit theme
 Jul 2019
+Last update: Sep 2019
 /************
 
 /* Title slide */
@@ -46,10 +47,50 @@ Jul 2019
   background-size: 210px 52px;
 }
 
+.title-slide-really-long {
+  background-color: #00366a;  /* blue background */
+  color: #ffffff;             /* white text */
+  text-shadow: 0 0 0;         /* no text shadow */
+  padding-left: 2em;
+  letter-spacing: 6px;
+  vertical-align: middle;
+  line-height: 35pt;          /* parameter to adjust when the title is very looong */
+  font-size: 40px;            /* text size: parameter to adjust when the title is very looong */
+  font-weight: bold;          /* bold */
+  background-image: url(img/Identidad_SocialBit-blanco.png);
+  background-position: 95px 210px;
+  background-size: 210px 52px;
+}
+
+
+/* Text format */
+
+.big-par { /*párrafo grande */
+  font-size: 55px;
+}
+
+.big-par-red { /*párrafo grande y rojo */
+  font-size: 55px;
+  color: red;
+}
+
+.biggest{ /*párrafo más grande */
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.medium-par { /* párrafo mediano*/
+font-size: 30px;
+}
+
+.medium-par-red { /* párrafo mediano*/
+font-size: 30px;
+color: red;
+}
+
 /* Slide numbers */
 
 .remark-slide-number {
   display: none;  /* remove them */
 }
-
 

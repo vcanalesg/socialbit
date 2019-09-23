@@ -2,13 +2,11 @@ Package: socialbit
 Title: Xaringan template for Socialbit
 Type: Package
 Version: 0.1.0
-Authors@r: 
-    person(given = "Verónica",
-           family = "Canales",
-           role = c("aut", "cre"),
-           email = "vcanales@ug.uchile.cl")
-Description: A template and CSS files for reproducing the presentation style of Socialbit
-License: MIT
+Authors@R: 
+    person("Verónica", "Canales", email = "vcanales@ug.uchile.cl",
+           role = c("aut", "cre"))
+Description: A template and CSS files for reproducing the presentation style of Socialbit.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:

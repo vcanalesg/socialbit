@@ -3,6 +3,7 @@ output:
   xaringan::moon_reader:
     css: ["default", "socialbit-styles.css", "socialbit-fonts.css"]
     seal: false
+    self_contained: true
     lib_dir: libs
     nature:
       highlightStyle: github
@@ -14,16 +15,84 @@ class: sbit-slide
 
 ---
 
-class: title-slide-long
+class: title-slide
 
-Ejemplo de título muy largo
+Ejemplo de título
 
 ---
 
-# Sobre esta plantilla
+class: title-slide-long
 
-```{r, eval=FALSE}
-library(tidyverse)
+Ejemplo de título más largo
+
+---
+
+class: title-slide-really-long
+
+Este clase de slide es para un título de verdad es largo, como el de latinR
+
+---
+
+# Plantilla institucional
+
+En esta plantilla encontrarán ejemplos de clases que he ido creando en css para las presentaciones. Esta plantilla está basada en una plantilla de `xaringan`, por lo que se pueden aprovechar todas sus funcionalidades :)
+
+--
+
+Las plantillas anteriores tienen diferentes tipos de clase de título, dependiendo del largo del texto. A continuación, les mostraré ejemplos de lo que pueden hacer con esta plantilla. 
+
+---
+
+# Así se ve el código en esta plantilla
+
+```{r, echo=TRUE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+#xaringan::summon_remark() # Para que se pueda ver offline
 ```
 
-Curabitur fringilla dapibus dolor sed consectetur. Quisque nec vestibulum mauris, sit amet ultricies lacus. Mauris facilisis dapibus nisi quis efficitur.
+Recuerden usar `xaringan::summon_remark` para que puedan ver las plantillas *offline*.
+
+---
+
+class: middle
+
+.big-par[Por si quieres escribir un párrafo que sea grande y llame la atención]
+
+---
+
+class: middle
+
+.big-par-red[También está su versión en color rojo]
+
+---
+
+class: middle
+
+.big-par[¡Puedes combinarlos .big-par-red[si quieres]!]
+
+---
+
+## A veces es necesario escribir cosas en gigante, como...
+
+--
+
+.biggest[Gato ~:3]
+
+--
+
+Muy importante.
+
+---
+
+## Y para cuando necesitemos un texto que tenga un tamaño mediano...
+
+Puedes usar la clase .medium-par, la que también viene con su versión en rojo.
+
+.center[
+.pull-left[
+.medium-par[Malena]]
+
+.pull-right[
+.medium-par-red[Frida]]]

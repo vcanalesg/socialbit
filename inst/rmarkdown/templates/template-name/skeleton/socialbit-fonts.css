@@ -3,6 +3,7 @@
 socialbit-theme
 Styles for Xaringan slides with Socialbit theme
 Jul 2019
+Last update: Sep 2019
 /************
 
 /* Import from Google Fonts */
@@ -13,12 +14,13 @@ Jul 2019
 
 /* Sans serif title text */
 
-.title-slide, .title-slide-long { font-family: 'Quicksand', sans-serif; }
-h1, h2, .title-h2 { font-family: 'Quicksand', sans-serif; }
+.title-slide, .title-slide-long, .title-slide-really-long { font-family: 'Quicksand', sans-serif; }
+h1, h2 { font-family: 'Quicksand', sans-serif;
+}
 
 /* Sans serif body text */
 
-body { font-family: sans-serif, 'Roboto'; }
+body, .big-par, .big-par-red, .biggest, .medium-par, .medium-par-red { font-family: sans-serif, 'Roboto'; }
 
 /* Monospace script */
 
